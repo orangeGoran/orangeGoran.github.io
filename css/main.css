@@ -1,0 +1,102 @@
+:root {
+  --subtitle-color: #8395a7;
+  --title-color: #222f3e;
+  --timeline-list-font-color: #576574;
+  --timeline-list-years-font-color: #222f3e;
+  --hover-color: #2e86de;
+}
+
+
+
+body {
+  margin-top: 50px;
+  background-color: #c8d6e5;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+.header {
+
+}
+
+.header .title {
+  margin-top: -20px;
+  padding: 10px;
+  color: var(--title-color);
+  font-weight: bolder;
+
+}
+
+.header .subtitle {
+  margin-top: -20px;
+  padding: 10px;
+  color: var(--subtitle-color);
+  border-bottom: 1px solid #8395a7;
+  text-transform: uppercase;
+
+}
+
+.header .reference {
+  color: inherit;
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+.header .reference:hover {
+  color: var(--hover-color);
+  text-decoration: none;
+}
+
+.header .references-holder {
+  padding: 10px;
+}
+
+.presentation {
+  margin-top: 50px;
+}
+
+.presentation .timeline {
+  color: var(--timeline-list-font-color);
+}
+
+
+.presentation .imgHolder {
+
+}
+
+
+.section-title h3 {
+  margin-top: -20px;
+  padding: 10px;
+  color: var(--title-color);
+  /* font-weight: bold; */
+  border-bottom: 1px solid var(--timeline-list-font-color);
+}
+
+.presentation .imgHolder {
+  text-align: center;
+}
+
+.presentation .imgHolder img {
+  width: 60%;
+  border: 2px solid #341f97;
+  border-radius: 3px;
+}
+
+.projects {
+  margin-top: 50px;
+}
+
+.projects .project-info {
+  display: block;
+  width: 100%;
+  text-align: justify;
+}
+
+.projects div h1 {
+  color: var(--title-color);
+}
+
+.projects div h1 a {
+  font-size: 0.7em;
+}
